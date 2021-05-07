@@ -1,0 +1,60 @@
+/*******************************************************************************************************************
+ *     ╔═══╗ ╔══╗ ╔═══╗ ╔════╗ ╔═══╗ ╔══╗        ╔══╗  ╔═══╗ ╔╗╔╗ ╔═══╗ ╔╗   ╔══╗ ╔═══╗ ╔╗  ╔╗ ╔═══╗ ╔╗ ╔╗ ╔════╗
+ *     ║╔══╝ ║╔╗║ ║╔═╗║ ╚═╗╔═╝ ║╔══╝ ║╔═╝        ║╔╗╚╗ ║╔══╝ ║║║║ ║╔══╝ ║║   ║╔╗║ ║╔═╗║ ║║  ║║ ║╔══╝ ║╚═╝║ ╚═╗╔═╝
+ *     ║║╔═╗ ║╚╝║ ║╚═╝║   ║║   ║╚══╗ ║╚═╗        ║║╚╗║ ║╚══╗ ║║║║ ║╚══╗ ║║   ║║║║ ║╚═╝║ ║╚╗╔╝║ ║╚══╗ ║╔╗ ║   ║║
+ *     ║║╚╗║ ║╔╗║ ║╔╗╔╝   ║║   ║╔══╝ ╚═╗║        ║║─║║ ║╔══╝ ║╚╝║ ║╔══╝ ║║   ║║║║ ║╔══╝ ║╔╗╔╗║ ║╔══╝ ║║╚╗║   ║║
+ *     ║╚═╝║ ║║║║ ║║║║    ║║   ║╚══╗ ╔═╝║        ║╚═╝║ ║╚══╗ ╚╗╔╝ ║╚══╗ ║╚═╗ ║╚╝║ ║║    ║║╚╝║║ ║╚══╗ ║║ ║║   ║║
+ *     ╚═══╝ ╚╝╚╝ ╚╝╚╝    ╚╝   ╚═══╝ ╚══╝        ╚═══╝ ╚═══╝  ╚╝  ╚═══╝ ╚══╝ ╚══╝ ╚╝    ╚╝  ╚╝ ╚═══╝ ╚╝ ╚╝   ╚╝
+ *------------------------------------------------------------------------------------------------------------------
+ * @author Gartes | sad.net79@gmail.com | Skype : agroparknew | Telegram : @gartes
+ * @date 29.04.2021 00:04
+ * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
+ * @license    GNU General Public License version 2 or later;
+ ******************************************************************************************************************/
+.CalculatorBody input:disabled{
+    background: #f7f7f7;
+    color: #ccc;
+}
+input:disabled::-webkit-input-placeholder {
+    color:    #ccc;
+}
+input:disabled:-moz-placeholder {
+    color:    #ccc;
+}
+input:disabled::-moz-placeholder {
+    color:    #ccc;
+}
+input:disabled:-ms-input-placeholder {
+    color:    #ccc;
+}
+
+/* Ошибки */
+.Calculator .form-group-header{
+    transition: color .5s;
+}
+.Calculator .error .form-group-header{
+    color: #fc5a09;
+}
+
+/* Сообщения */
+.noty_bar.noty_theme__mint.noty_type__info,
+.noty_bar.noty_theme__mint.noty_type__information{
+    background-color: #fc5a09;
+    border-bottom: 1px solid #575665;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
